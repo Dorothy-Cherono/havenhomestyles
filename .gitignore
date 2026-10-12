@@ -1,0 +1,36 @@
+# Environment files and secrets
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.venv*/
+venv/
+env/
+
+# Django local files
+staticfiles/
+media/
+
+# Local databases, backups, and exports
+*.sqlite3
+*.sqlite3-*
+*.db
+*.sql
+*backup*
+*sqlite_export*.json
+
+# Frontend dependencies and builds
+node_modules/
+dist/
+dist-ssr/
+
+# Logs and operating system files
+*.log
+.DS_Store
+Thumbs.db
