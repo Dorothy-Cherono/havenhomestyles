@@ -1,13 +1,13 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Navbar from "./components/Navbar";
+import Navbar from "./components/navbar";
 import Hero from "./components/Hero";
 import CategorySection from "./components/CategorySection";
 import FeaturedProducts from "./components/FeaturedProducts";
 import Shop from "./pages/Shop";
 import ProductDetails from "./pages/ProductDetails";
 import Cart from "./pages/Cart";
-import Checkout from "./pages/Checkout";
-import OrderSuccess from "./pages/OrderSuccess";
+import Checkout from "./pages/checkout";
+import OrderSuccess from "./pages/orderSuccess";
 import Categories from "./pages/Categories";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
