@@ -7,7 +7,9 @@ import Shop from "./pages/Shop";
 import ProductDetails from "./pages/ProductDetails";
 import Cart from "./pages/Cart";
 import Checkout from "./pages/checkout";
-import OrderSuccess from "./pages/orderSuccess";
+
+import OrderSuccess from "./pages/ordersuccess.jsx";
+
 import Categories from "./pages/Categories";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
